@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refactorisation</title>
+</head>
+<body>
+
+    <h1>Découpage Administratif</h1>
+
+    <label for="regions">Liste des régions:</label>
+    <select id="regions">
+        <option value="">Sélectionner une région</option>
+    </select>
+
+    <label for="departements">Liste des départements:</label>
+    <select id="departements" disabled>
+        <option value="">Sélectionner un département</option>
+    </select>
+
+    <button id="showCommunes" disabled>Afficher les communes</button>
+
+    <ul id="communesList"></ul>
+
+    <script src="./js/main.js" type="module"></script>
+</body>
+</html>
